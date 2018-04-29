@@ -1,0 +1,31 @@
+.center { 
+	text-align: center; 
+	margin: 0px auto;
+}
+	
+body { 
+	font-family: Arial, sans-serif;
+	background-color: #FFFFFF;
+	background-image: url("coffee-cup-desk-317377.jpg");
+	background-size: cover;
+}
+	
+button { 
+	background-color: #FFFFFF;
+	color: black;
+	border: 2px solid #000000;
+	font-size: 20px;
+}
+	  
+.container { 
+	width: 75%;
+	border-radius: 10px;
+	padding: 20px;
+}
+	  
+.semitransparent { 
+	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.65);
+	filter: alpha(opacity=30); /* For IE8 and earlier */
+}
+		  
